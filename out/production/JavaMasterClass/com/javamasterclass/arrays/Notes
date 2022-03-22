@@ -1,0 +1,6 @@
+// Standard java arrays are only changable by editing index value i.e. array[0] = value.
+
+//For more dynamic arrays try: Stack<`Type`>, LinkedList<`Type`>, or ArrayList<`Type`>
+
+//Common errors
+-ArrayIndexOutOfBoundsException, outside length of array.

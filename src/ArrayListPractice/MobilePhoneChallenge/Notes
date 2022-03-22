@@ -1,0 +1,2 @@
+class specific functions should be private to prevent other classes from "viewing"
+attributes.

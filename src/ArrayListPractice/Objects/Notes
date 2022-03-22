@@ -1,0 +1,2 @@
+An Array list is a collection object, used to collect various types of objects,
+ to use primitive data types you must use a wrapper class to wrap the primitive data type.

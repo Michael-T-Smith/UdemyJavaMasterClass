@@ -1,0 +1,22 @@
+// Standard java arrays are only changable by editing index value i.e. array[0] = value.
+
+//For more dynamic arrays try: Stack<`Type`>, LinkedList<`Type`>, or ArrayList<`Type`>
+
+//Common errors
+-ArrayIndexOutOfBoundsException, outside length of array.
+
+
+
+
+//AUTOBOXING and UNBOXING:
+when needing a primitive data type in object form we wrap them in a wrapper.
+Integer integer = new Integer(54);
+is the equivalent of int x = 54 but is usable as an object.
+
+ArrayList<Integer> intArrayList = new ArrayList<Integer>(); is how to use primative data types in an ArrayList that requires an object Element.
+
+Java has a built in converter also: Integer myint = 56; autoconverts int to Integer.
+
+
+Autoboxing is when the primitive type is converted to an object,
+unboxing is when the object is converted to the primitive type.

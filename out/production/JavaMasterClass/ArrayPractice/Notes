@@ -1,0 +1,4 @@
+Variables assigned a value take a place in memory.
+Variables referencing other variables do not hold a place in memory.
+
+References are created with the 'new' keyword.
