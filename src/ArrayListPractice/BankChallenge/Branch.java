@@ -6,7 +6,7 @@ public class Branch {
     private String name;
     private ArrayList<Customer> customers;
 
-    public Branch(String name, ArrayList<Customer> customers) {
+    public Branch(String name) {
         this.name = name;
         //initialize arraylist.
         this.customers = new ArrayList<Customer>();
@@ -18,6 +18,9 @@ public class Branch {
         return name;
     }
 
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
 
     //methods
    public  boolean newCustomer(String name, double amount){
@@ -46,12 +49,14 @@ public class Branch {
    private Customer findCustomer(String name) {
         //cycle through list of customers.
        for (int i = 0; i < this.customers.size(); i++) {
+           Customer checkedCustomer = this.customers.get(i);
            //check customers with get(i) find the name and check if it equals the provided name.
-           if (this.customers.get(i).getName().equals(name)) {
+           if (checkedCustomer.getName().equals(name)) {
                //return the customer object at index.
-               return this.customers.get(i);
+               return checkedCustomer;
            }
        }
+       //can not provide customer if none exist. return null.
         return null;
     }
 }
