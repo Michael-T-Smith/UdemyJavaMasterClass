@@ -1,0 +1,19 @@
+Linked list is another type of list. another option compared to Array list.
+
+Java allocates 4 bytes of memory for every integer because it needs that space to store the max value of an integer. (i.e. Integer.MAX_VALUE).
+LinkedList follow the address stored by Java in memory.
+
+Linked list basically is like following pointers to the end, starting at a certain point.
+In an array list all values get shifted or unshifted in the array, but in a linkedList we just add a pointer before or after a value to add or remove a value,
+working much faster than an array, especially when it comes to big data.
+
+The pointers that have nothing pointing to them, i.e(No way to reach value) the Java garbage collector will automatically scrap the value and recover the memory
+position to use for anther value.
+
+
+
+
+Additional resources:
+* The Tortoise and the hare algorithm.
+* Time complexity lecture.
+* review infinite linked list loop prevention.

@@ -10,8 +10,6 @@ public class Main {
 
         bank.addCustomer("Adelaide", "Henry", 450.00);
 
-
-
         bank.listCusomters("Adelaide", true);
     }
 }
